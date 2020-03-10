@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Aarogya</string>
+    <string name="home">Home</string>
+    <string name="services">Services</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="pharmacy">PHARMACY</string>
+
+    <string name="choose_by">Choose By :</string>
+    <string name="hospital">Hospital</string>
+    <string name="specialisation">Specialisation</string>
+    <string name="pharmacy_stock">Pharmacy Stock</string>
+    <string name="add_new_medicine">Add new Medicine</string>
+
+
+    <string-array name="hospital_list">
+        <item>Select Hospital</item>
+        <item>Chalakkudy</item>
+        <item>Thrissur</item>
+        <item>Ernakulam</item>
+    </string-array>
+    <string-array name="specialisation_list">
+        <item>Select Specialisation</item>
+        <item>Nephrology</item>
+        <item>Ortho</item>
+        <item>Neurology</item>
+    </string-array>
+
+
+
+
+    <string-array name="treatment_list">
+        <item>Select Treatment</item>
+        <item>Refractive Surgery</item>
+        <item>Trauma Care</item>
+        <item>General Surgical Services</item>
+    </string-array>
+
+</resources>
+

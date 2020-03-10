@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="368dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="20dp"
+        android:text="Login As :"
+        android:textSize="20sp" />
+
+
+    <RadioGroup
+        android:id="@+id/choicegroup"
+        android:layout_width="359dp"
+        android:layout_height="162dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="1dp">
+
+        <RadioButton
+            android:id="@+id/userRadio"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:text="User" />
+        //android:onClick="checkUser"
+
+        <RadioButton
+            android:id="@+id/hospitalRadio"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:text="Hospital" />
+
+        <RadioButton
+            android:id="@+id/departmentRadio"
+            android:layout_width="177dp"
+            android:layout_height="35dp"
+            android:text="Health Admin / Local Self Govt Admin" />
+
+
+        <RadioButton
+            android:id="@+id/pharmacyRadio"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:text="Pharmacist" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="username"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/loginpaswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Password"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Login"
+        android:textSize="25dp"
+        android:onClick="login"/>
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:text="New User? Register Here"
+        android:textSize="20dp"
+        android:gravity="center_horizontal" />
+
+
+
+</LinearLayout>

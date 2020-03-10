@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="61dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:onClick="emergenClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_emerg" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="398dp"
+        android:layout_height="510dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher_foreground" />
+
+</FrameLayout>
